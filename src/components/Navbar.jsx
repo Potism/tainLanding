@@ -1,4 +1,4 @@
-import { Link } from "react-scroll";
+//import { Link } from "react-scroll";
 
 //wag gagalawin yung {/* */} <-- ibig sabihin neto comment di sya kasama sa code
 
@@ -10,12 +10,16 @@ const Navbar = () => {
         <img src="" alt="header logo" />
         <ul>
           <li>
-            <Link to="/">Home</Link>
-            <Link to="/">Taingram</Link>
-            <Link to="/">Team</Link>
-            <Link to="/">About us</Link>
+            <a href="/">Home</a>
+          </li>
+          <li>
+            <a href="/">Team</a>
+          </li>
+          <li>
+            <a href="/">About us</a>
           </li>
         </ul>
+        <button>Taingram</button>
       </div>
     </nav>
   );
